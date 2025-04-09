@@ -45,9 +45,8 @@ export async function generateMetadata() {
 
 export default async function Home() {
   const items = await getItems()
-  const headersList = headers();
+  const headersList = await headers();
   const pathname = headersList.get('x-current-path') || '/';
-  console.log(items)
 
   return (
     <div className="">
