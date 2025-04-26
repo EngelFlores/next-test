@@ -1,6 +1,6 @@
 # Project Name
 
-A modern Next.js project for sending money worldwide. Fast, secure, and hassle-free.
+A modern Next.js project.
 
 ## 🚀 Getting Started
 
